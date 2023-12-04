@@ -3,7 +3,7 @@ package Swap;
 public class swap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Without using a temporary variable
 		
 		int m = 20;
 		int n = 10;
