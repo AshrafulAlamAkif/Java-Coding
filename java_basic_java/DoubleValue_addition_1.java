@@ -11,6 +11,7 @@ public class DoubleValue_addition_1 {
 		
 		System.out.println("Enter the fast double number: ");
 		double num1 = add.nextDouble();
+		
 		System.out.println("Enter the second double number: ");
 		double num2 = add.nextDouble();
 		
