@@ -33,8 +33,7 @@ public class if_else {
 		else {
 			System.out.println("Good Evening");
 		}
-		
-		
+			
 
 	}
 
