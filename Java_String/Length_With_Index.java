@@ -5,7 +5,6 @@ public class Length_With_Index {
 	public static void main(java.lang.String[] args) {
 		
 		String text = "My name is Akif";
-		
 		System.out.println("text length is : "+text.length());
 		
 		String desiar_text = "Akif";
@@ -14,8 +13,9 @@ public class Length_With_Index {
 		int selecTextLength = desiar_text.length();
 		System.out.println("selected text length : "+selecTextLength);
 		
+		
 						//find length with index number
-		// Get the substring "ABCDEFGH" (index 11 to 15, exclusive)
+		// Get the substring "My name is Akif" (index 11 to 15, exclusive)
 		
 		String text_index = text.substring(11, 15);
 		

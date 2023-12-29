@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class java_addition_1 {
 
 	public static void main(String[] args) {
-		// TODO 
+		// TODO fast
 		
 		int number = 10; //semi-colun
 		int number2 = 5;
