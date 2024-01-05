@@ -7,6 +7,7 @@ public class WhileLoop_if {
 		
 		//Initialize variable i with a value of 0
 		int i = 0;
+		
 		//Start a while loop that Continues as long as i is less than 10
 		while(i < 10) {
 			//Check if i is equal to 5
