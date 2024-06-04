@@ -12,7 +12,7 @@ public class Get_specific_char_with_num2 {
 		 */
 		
 		// Create a Scanner object named user
-Scanner user = new Scanner(System.in);
+		Scanner user = new Scanner(System.in);
         
         // Prompt the user for input
         System.out.println("Please Enter any sentence: ");
