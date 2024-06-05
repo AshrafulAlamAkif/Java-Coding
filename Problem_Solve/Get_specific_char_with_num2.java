@@ -16,11 +16,11 @@ public class Get_specific_char_with_num2 {
         
         // Prompt the user for input
         System.out.println("Please Enter any sentence: ");
-        String userName = user.nextLine();  // Removed toLowerCase()
+        String userName = user.nextLine().toLowerCase();
         //String userName = user.nextLine().toLowerCase();
         
         System.out.println("Now Enter your alphabet: ");
-        char userChar = user.nextLine().charAt(0);  // Removed toLowerCase()
+        char userChar = Character.toLowerCase(user.nextLine().charAt(0));
         //char userChar = Character.toLowerCase(user.nextLine().charAt(0));// Get the first character of the input
         
         // Close the Scanner to release resources
@@ -30,7 +30,7 @@ public class Get_specific_char_with_num2 {
         
         for(int i = 0; i < userName.length(); i++) {
             //if(Character.toLowerCase(userName.charAt(i)) == Character.toLowerCase(userChar)) {
-            	if(userName.charAt(i) == userChar) {
+            	if(userName.charAt(i) == userChar) { //if used upper line then this line will be Off
                 count++;
             }
         }
